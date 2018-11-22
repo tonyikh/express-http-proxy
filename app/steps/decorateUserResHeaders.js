@@ -1,4 +1,5 @@
 'use strict';
+const zlib = require('zlib');
 
 function isResGzipped(res) {
   return res.headers['content-encoding'] === 'gzip';
