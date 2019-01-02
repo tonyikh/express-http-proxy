@@ -1,5 +1,6 @@
 'use strict';
 
+var _ = require('lodash');
 var url = require('url');
 var debug = require('debug')('express-http-proxy');
 
